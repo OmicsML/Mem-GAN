@@ -40,7 +40,7 @@ python test.py --dataroot ./datasets/test_data/imm_cell --name cosmximmv2 --mode
 ```
 python test.py --dataroot ./datasets/test_data/weak_cell --name cosmxv7weak --model cycle_gan --preprocess none --num_test=2
 ```
-
+> Generated images will be under ./results/
 
 ### Citation
 If you find this paper or code useful for your research, please cite our paper:
