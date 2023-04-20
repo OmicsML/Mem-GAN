@@ -5,16 +5,6 @@
 
 ## Usage
 
-### Dataset
-> You need to download the [CosMx](https://www.med.upenn.edu/sbia/brats2018/registration.html) or other multi-modality datasets into ```<root_dir>/ACN/data```
-> The dataset directory should have this basic structure (BraTS as an example):
-```
-<root_dir>/ACN/data/<DATA_NAME>/*/case_name/*_flair.nii.gz      
-<root_dir>/ACN/data/<DATA_NAME>/*/case_name/*_t1.nii.gz   
-<root_dir>/ACN/data/<DATA_NAME>/*/case_name/*_t1ce.nii.gz   
-<root_dir>/ACN/data/<DATA_NAME>/*/case_name/*_flair.nii.gz
-<root_dir>/ACN/data/<DATA_NAME>/*/case_name/*_seg.nii.gz     # groundtruth 
-```
 ### Pre-requsites
 ```
 torch>=1.4.0
@@ -31,6 +21,27 @@ Please use the command ```pip install -r requirements.txt``` for the dependencie
 ```
 python xxx.py
 ```
+
+### Testing phase
+> According to your generation goal, Put your test images into 
+```
+./datasets/test_data/*/testA/
+```
+
+> Tumor cell membrane generation
+```
+python test.py --dataroot ./datasets/test_data/tum_cell --name cosmxv6 --model cycle_gan --preprocess none --num_test=2
+```
+> Immune cell membrane generation
+```
+python test.py --dataroot ./datasets/test_data/imm_cell --name cosmximmv2 --model cycle_gan --preprocess none --num_test=2 --epoch 100
+```
+> Weak cell membrane generation
+```
+python test.py --dataroot ./datasets/test_data/weak_cell --name cosmxv7weak --model cycle_gan --preprocess none --num_test=2
+```
+
+
 ### Citation
 If you find this paper or code useful for your research, please cite our paper:
 ```
