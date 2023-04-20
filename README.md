@@ -48,7 +48,7 @@ If you find this paper or code useful for your research, please cite our paper:
 
 ```
 ### Acknowledgement
-> This repo is borrowed from the [Reproduction]() of CycleGAN
+> This repo is borrowed from the [Reproduction](CycleGAN)
 
 ### TO DO
 > 
