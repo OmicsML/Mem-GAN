@@ -5,6 +5,10 @@
 
 ## Usage
 
+### Demo
+Link: https://omicsml.ai/memgan/
+
+
 ### Pre-requsites
 ```
 torch>=1.4.0
