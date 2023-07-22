@@ -5,8 +5,7 @@
 
 ## Usage
 
-### Demo
-Link: https://omicsml.ai/memgan/
+### Demo (https://omicsml.ai/memgan/)
 
 
 ### Pre-requsites
