@@ -16,3 +16,4 @@ Please use the command ```pip install -r requirements.txt``` for the dependencie
 
 
 ### Update (TBD)
+This code base is based on the CycleGAN codebase.
