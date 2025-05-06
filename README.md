@@ -1,7 +1,7 @@
 # Mem-GAN
 > This repo holds code for [Mem-GAN: a pseudo membrane generator for single-cell imaging in fluorescent microscopy](https:).
 
-### Demo (https://omicsml.ai/memgan/)
+### Demo (http://omicsml.ai/memgan/)
 
 ## Usage
 
