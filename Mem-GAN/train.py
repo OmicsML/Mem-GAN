@@ -1,5 +1,5 @@
 """General-purpose training script for image-to-image translation.
-
+This is based on the codebase from CycleGAN.
 This script works for various models (with option '--model': e.g., pix2pix, cyclegan, colorization) and
 different datasets (with option '--dataset_mode': e.g., aligned, unaligned, single, colorization).
 You need to specify the dataset ('--dataroot'), experiment name ('--name'), and model ('--model').
