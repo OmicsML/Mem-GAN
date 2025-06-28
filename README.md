@@ -1,4 +1,6 @@
 # Mem-GAN
+### Mem-GAN has been accepted to BioKDD'2025 (https://biokdd.org/biokdd25/regular_track.html).
+
 > This repo holds code for [Mem-GAN: a pseudo membrane generator for single-cell imaging in fluorescent microscopy](https:).
 
 ### Demo (http://omicsml.ai/memgan)
